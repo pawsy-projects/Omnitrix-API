@@ -1,31 +1,35 @@
-const router = require('express').Router();
 const path = require('path');
+const filtro = require('./filtro');
 
-const MAP = [
-{ p: "/aliens", f: "aliens.json" }
-];
+module.exports = (app) => {
+  const rotas = [
+    { 
+      paths: ["/api/aliens", "/api/v1/aliens"], 
+      dados: require(path.join(__dirname, 'db/aliens.json')) 
+    }
+  ];
 
- // ~~~ 🐈 ~~~
+// ~~~ 🐈 ~~~
 
-const clean = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-const filtrar = (lista, query) => lista.filter(obj => 
-  Object.entries(query).every(([k, v]) => {
-    const db = obj[k];
-    if (db == null) return false;
-    const busca = clean(v).split(',');
-    const match = (alvo) => k === 'id' ? parseInt(alvo) === parseInt(v) : busca.some(b => clean(alvo).includes(b));
-    return Array.isArray(db) ? busca.every(b => db.some(a => clean(a).includes(b))) : (typeof db === 'object' ? Object.values(db).some(v => match(v)) : match(db));
-  })
-);
-
-MAP.forEach(c => {
-  try {
-    const db = require(path.join(__dirname, c.f));
-    router.get(c.p, (req, res) => {
-      const r = Object.keys(req.query).length ? filtrar(db, req.query) : db;
-      res.json({ status: 200, total: r.length, resposta: r });
+  rotas.forEach(({ paths, dados }) => {
+    paths.forEach(p => {
+      app.get(p, (req, res) => {
+        try {
+          const r = Object.keys(req.query).length ? filtro.executar(dados, req.query) : dados;
+          res.json({ total: r.length, resposta: r });
+        } catch (err) {
+          res.status(500).json({ erro: "🤔 Erro ao processar filtro.", detalhes: err.message });
+        }
+      });
     });
-  } catch (e) {}
-});
+  });
 
-module.exports = router;
+  app.use((req, res) => {
+    res.status(404).json({ status: 404, erro: "😥 Essa rota não foi encontrada." });
+  });
+
+  app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ status: 500, erro: "👻 Não foi possível puxar resposta nessa rota." });
+  });
+};
