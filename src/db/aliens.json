@@ -7,7 +7,7 @@
     "descrição": "Chama tem a capacidade de gerar, manipular e projetar intenso calor e fogo de seu corpo, mesmo debaixo d'água.",
     "aparição": ["Ben 10 (clássico)", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/chama.webp"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "descrição": "Besta possui um olfato e uma audição muito desenvolvidos, consegue pressentir inimigos a distâncias, além de conseguir sentir e ouvir coisas invisíveis.",
     "aparição": ["Ben 10 (clássico)", "Supremacia Alienígena", "Omniverse"],
     "supremo": true,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/besta.webp"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "descrição": "Diamante pode gerar cristais por qualquer parte do seu corpo, estender partes do corpo, se regenerar de forma limitada ou atirar cacos de cristal seguidamente de suas mãos.",
     "aparição": ["Ben 10 (clássico)", "Força Alienígena", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/diamante.webp"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "descrição": "XLR8 tem uma supervelocidade. Ele pode usar essa velocidade para criar tornados, ciclones e furacões ou correr em qualquer superfície.",
     "aparição": ["Ben 10 (clássico)", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/XLR8.webp"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "descrição": "Massa Cinzenta tem uma inteligência altamente superior à de quase qualquer alien, tendo conhecimento de qualquer matéria em nível avançado e vantagens por ser pequeno.",
     "aparição": ["Ben 10 (clássico)", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/massacinzenta.webp"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "descrição": "Quatro Braços é conhecido por sua extrema força física, capaz de levantar várias vezes o seu peso e destruir materiais resistentes com facilidade.",
     "aparição": ["Ben 10 (clássico)", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/quatrobracos.webp"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "descrição": "Insectóide pode disparar uma variedade de toxinas químicas de sua boca ou olhos, voar e geleia imobilizante.",
     "aparição": ["Ben 10 (clássico)", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/insectoide.webp"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "descrição": "Aquático pode respirar embaixo da água, seus dentes podem cortar ou esmagar quase qualquer material sólido, incluindo aço.",
     "aparição": ["Ben 10 (clássico)", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/aquatico.webp"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "descrição": "Criado de forma acidentalmente por Azmuth, Ultra T é capaz de se combinar com qualquer tipo tecnologia, tomando controle e melhorando elas, reconfigurar a tecnologia para encaixar ela melhor em uma situação.",
     "aparição": ["Ben 10 (clássico)", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/ultrat.webp"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "descrição": "Fantasmático consegue ficar invisível, intangível, podendo atravessar objetos e pessoas. possui garras gigantescas e pode usar para atacar os seus inimigos e tentáculos escondidos.",
     "aparição": ["Ben 10 (clássico)", "Força Alienígena", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/fantaasmatico.webp"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "descrição": "Seu planeta foi destruído. Bala de Canhão pode se transformar em uma esfera e rolar como um tatu, sua carapaça é dura podendo resistir a ácidos, lasers e lava.",
     "aparição": ["Ben 10 (clássico)", "Força Alienígena", "Supremacia Alienígena", "Omniverse"],
     "supremo": true,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/boladecanhao.webp"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "descrição": "Cipó Selvagem pode se comunicar com as plantas e de também controlá-las, possui sementes explosivas que contêm uma série de substâncias nas suas costas que, quando são lançadas, podem explodir como uma pequena bomba ou podem expelir um gás tóxico.",
     "aparição": ["Ben 10 (clássico)", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/wildvine.webp"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "descrição": "Anteriormente Lobis-ben. Blitzwolfer pode usar um uivo ultra sônico, sentidos em níveis sobre-humanos, sendo capaz de prever um tiro a quilômetros e super visão.",
     "aparição": ["Ben 10 (clássico)", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/lobisben.webp"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "descrição": "Múmia pode armazenar coisas dentro de seu corpo, possuí a pele como se fossem bandagens ou faixas. Podendo se regenerar e esticar suas faixas.",
     "aparição": ["Ben 10 (clássico)", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/mumia.webp"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "descrição": "Benvicktor possuí poderes eletrocinéticos, podendo controlar a eletricidade e lançar raios e feixes de energia elétrica de cor verde tão intensos quanto um relâmpago.",
     "aparição": ["Ben 10 (clássico)", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/benvicktor.webp"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "descrição": "Glutão pode comer qualquer material. possui várias línguas elásticas e pegajosas dentro da boca que podem ser usadas para segurar objetos e os levar até sua boca, após ingerir algo pode lançar de volta a energia em forma de esferas de gosma explosiva.",
     "aparição": ["Ben 10 (clássico)", "Força Alienígena", "Supremacia Alienígena", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/glutao.webp"
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "descrição": "Idem tem a capacidade de clonar a si mesmo, todos compartilhando a mesma mente.",
     "aparição": ["Ben 10 (clássico)", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/idem.webp"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "descrição": "Mega Olhos pode disparar raios elétricos de energia diferentes, fundindo seus olhos para um disparo mais poderoso e escanear seu adversário e visualizar suas habilidades para obter vantagens em combate.",
     "aparição": ["Ben 10 (clássico)", "Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/megaolhoswebp.webp"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "descrição": "Gigante pode lançar raios cósmicos com suas mãos, produzir tempestades cósmicas, capaz de alterar seu tamanho e ter uma forma força extraordinária suportando energia cósmica.",
     "aparição": ["Ben 10 (clássico)", "Força Alienígena", "Supremacia Alienígena", "Omniverse"],
     "supremo": true,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/gigante.webp"
   },
   {
     "id": 20,
@@ -197,6 +197,6 @@
     "descrição": "Sendo o alien favorito do Ben. Feedback tem a capacidade de absorver e redirecionar eletricidade mesmo à distância pelas suas antenas, cauda e dedos.",
     "aparição": ["Omniverse"],
     "supremo": false,
-    "imagem": null
+    "imagem": "https://raw.githubusercontent.com/pawsy-projects/Omnitrix-API/refs/heads/main/public/aliens/feedback.webp"
   }
 ]
