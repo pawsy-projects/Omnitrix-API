@@ -1,0 +1,32 @@
+{
+  "name": "@pawsy/omnitrix-api",
+  "version": "1.0.0",
+  "description": "🦠 API REST pública com dados detalhados sobre os alienígenas e o universo de Ben 10.",
+  "main": "index.js",
+  "author": "Pawsy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawsy-projects/Omnitrix-API.git"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "pawsy",
+    "omnitrix",
+    "ben-10",
+    "api",
+    "vercel",
+    "rest"
+  ]
+}
